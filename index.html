@@ -44,10 +44,17 @@
     z-index: 10;
     border-bottom: 1px solid rgba(78,60,46,0.1);
   }
-  .nav-name {
+ .nav-name {
     font-family: 'Fraunces', serif;
     font-size: 1.2rem;
     font-weight: 600;
+  }
+  .nav-photo {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
   }
   .nav-links { display: flex; gap: 32px; }
   .nav-links a {
@@ -355,7 +362,7 @@
 <body>
 
 <nav>
-  <div class="nav-name">Mariela Passalacqua</div>
+  <img src="HeadshotM.JPG" alt="Mariela Passalacqua" class="nav-photo">
   <div class="nav-links">
     <a href="#microsoft">Microsoft</a>
     <a href="#google">Google</a>
